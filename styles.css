@@ -742,7 +742,7 @@ body.loaded .loader { clip-path: inset(0 0 100% 0); visibility: hidden; }
 /* Motion and pointer details */
 .reveal { opacity: 1; filter: none; transform: none; transition: opacity .85s var(--ease), filter .85s var(--ease), transform .9s var(--ease); }
 .reveal.is-visible { opacity: 1; filter: none; transform: none; }
-.split-title > span { opacity: 0; transform: translateY(110%); transition: opacity .4s, transform 1.05s var(--ease); }
+.split-title > span { opacity: 1; transform: none; transition: opacity .4s, transform 1.05s var(--ease); }
 body.loaded .split-title > span { opacity: 1; transform: none; }
 body.loaded .split-title > span:nth-child(2) { transition-delay: .12s; }
 .hover-media img { transition-timing-function: var(--ease); }
